@@ -8,7 +8,7 @@ print('#----------------------------#')
   
 nomor = input('Masukan Nomor => ')
 pesan = input('Masukan Pesan => ')
-url = 'https://api.chat-api.com/instance#NOMOR-AKUN-ANDA/sendMessage?token=#TOKEN-ANDA&phone={}&body={}'\ # Jika sudah memasukkan Nomor akun dan token hapus tanda (#)
+url = 'https://api.chat-api.com/instance215439/sendMessage?token=ltp3nas4k1l7ee3p&phone={}&body={}'\  Jika sudah memasukkan Nomor akun dan token hapus tanda (#)
     .format(nomor,pesan)
 while True:
     req = requests.post(url)
